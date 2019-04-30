@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b3ffae562eb2a2abbe0604291f11fe36",
+    "revision": "618ceac991811a30371033131f1f4e0c",
     "url": "/PGA-Leaderboard/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/PGA-Leaderboard/static/css/2.f524842a.chunk.css"
   },
   {
-    "revision": "56a589c1284405df32a9",
+    "revision": "b1e7f09208f3013458fe",
     "url": "/PGA-Leaderboard/static/css/main.200afe8e.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/PGA-Leaderboard/static/js/2.9b965561.chunk.js"
   },
   {
-    "revision": "56a589c1284405df32a9",
-    "url": "/PGA-Leaderboard/static/js/main.f45ee29e.chunk.js"
+    "revision": "b1e7f09208f3013458fe",
+    "url": "/PGA-Leaderboard/static/js/main.1a9d40ee.chunk.js"
   },
   {
     "revision": "8a7e9772b5ed4fbcdd47",

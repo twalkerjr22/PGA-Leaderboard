@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.0/workbox-sw.js");
 
 importScripts(
-  "/PGA-Leaderboard/precache-manifest.34aab2e48aa734694268c7042a44eac7.js"
+  "/PGA-Leaderboard/precache-manifest.152bcf307f42a80112627777107ed6c4.js"
 );
 
 self.addEventListener('message', (event) => {
