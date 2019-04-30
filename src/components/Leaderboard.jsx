@@ -48,6 +48,7 @@ class Leaderboard extends Component {
     console.log(props);
   }
 
+  
   openAdd = () => {
     this.setState({ open: true });
   };
