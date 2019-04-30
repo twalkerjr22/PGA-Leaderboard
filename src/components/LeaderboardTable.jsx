@@ -51,7 +51,7 @@ class LeaderboardTable extends Component {
           if (a < b) {
             return -1;
           }
-          
+
           // returning 0 or undefined will use any subsequent column sorting methods or the row index as a tiebreaker
           return 0;
         }}
@@ -61,7 +61,7 @@ class LeaderboardTable extends Component {
           {
             Header: "Lastname",
             accessor: "lastName",
-            show: true
+            show: false
           },
           {
             Header: "Name",
