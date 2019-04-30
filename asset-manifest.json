@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/PGA-Leaderboard.git/static/css/main.200afe8e.chunk.css",
-    "main.js": "/PGA-Leaderboard.git/static/js/main.85b6719c.chunk.js",
-    "main.js.map": "/PGA-Leaderboard.git/static/js/main.85b6719c.chunk.js.map",
-    "runtime~main.js": "/PGA-Leaderboard.git/static/js/runtime~main.56265bc3.js",
-    "runtime~main.js.map": "/PGA-Leaderboard.git/static/js/runtime~main.56265bc3.js.map",
-    "static/css/2.e431912d.chunk.css": "/PGA-Leaderboard.git/static/css/2.e431912d.chunk.css",
-    "static/js/2.9b965561.chunk.js": "/PGA-Leaderboard.git/static/js/2.9b965561.chunk.js",
-    "static/js/2.9b965561.chunk.js.map": "/PGA-Leaderboard.git/static/js/2.9b965561.chunk.js.map",
-    "index.html": "/PGA-Leaderboard.git/index.html",
-    "precache-manifest.bc9c9ca282d78ae53d08bb81466989e3.js": "/PGA-Leaderboard.git/precache-manifest.bc9c9ca282d78ae53d08bb81466989e3.js",
-    "service-worker.js": "/PGA-Leaderboard.git/service-worker.js",
-    "static/css/2.e431912d.chunk.css.map": "/PGA-Leaderboard.git/static/css/2.e431912d.chunk.css.map",
-    "static/css/main.200afe8e.chunk.css.map": "/PGA-Leaderboard.git/static/css/main.200afe8e.chunk.css.map",
-    "static/media/logo.svg": "/PGA-Leaderboard.git/static/media/logo.5d5d9eef.svg",
-    "static/media/index.css": "/PGA-Leaderboard.git/static/media/roboto-latin-900italic.bc833e72.woff"
+    "main.css": "/PGA-Leaderboard/static/css/main.200afe8e.chunk.css",
+    "main.js": "/PGA-Leaderboard/static/js/main.f45ee29e.chunk.js",
+    "main.js.map": "/PGA-Leaderboard/static/js/main.f45ee29e.chunk.js.map",
+    "runtime~main.js": "/PGA-Leaderboard/static/js/runtime~main.77179091.js",
+    "runtime~main.js.map": "/PGA-Leaderboard/static/js/runtime~main.77179091.js.map",
+    "static/css/2.f524842a.chunk.css": "/PGA-Leaderboard/static/css/2.f524842a.chunk.css",
+    "static/js/2.9b965561.chunk.js": "/PGA-Leaderboard/static/js/2.9b965561.chunk.js",
+    "static/js/2.9b965561.chunk.js.map": "/PGA-Leaderboard/static/js/2.9b965561.chunk.js.map",
+    "index.html": "/PGA-Leaderboard/index.html",
+    "precache-manifest.34aab2e48aa734694268c7042a44eac7.js": "/PGA-Leaderboard/precache-manifest.34aab2e48aa734694268c7042a44eac7.js",
+    "service-worker.js": "/PGA-Leaderboard/service-worker.js",
+    "static/css/2.f524842a.chunk.css.map": "/PGA-Leaderboard/static/css/2.f524842a.chunk.css.map",
+    "static/css/main.200afe8e.chunk.css.map": "/PGA-Leaderboard/static/css/main.200afe8e.chunk.css.map",
+    "static/media/logo.svg": "/PGA-Leaderboard/static/media/logo.5d5d9eef.svg",
+    "static/media/index.css": "/PGA-Leaderboard/static/media/roboto-latin-900italic.bc833e72.woff"
   }
 }
