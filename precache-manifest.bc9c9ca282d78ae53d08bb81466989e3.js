@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b577033500bc800680dd1b44fd20b05f",
+    "revision": "1b37d9763b06cdccd0c1aa3df89cdf1c",
     "url": "/PGA-Leaderboard.git/index.html"
   },
   {
