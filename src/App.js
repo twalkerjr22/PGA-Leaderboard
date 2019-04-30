@@ -1,26 +1,52 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import Leaderboard from "./components/Leaderboard";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  state = {
+    data: []
+  };
+  handleDelete = id => {
+    this.setState({
+      data: this.state.data.filter(item => {
+        return item.id != id;
+      })
+    });
+  };
+
+  handleUpdate = (firstName, lastName, score, id) => {
+    this.state.data[id - 1].firstName = firstName;
+    this.state.data[id - 1].lastName = lastName;
+    this.state.data[id - 1].score = score;
+    this.state.data[id - 1].name = lastName + "," + firstName;
+  };
+  handleAdd = (firstName, lastName, score) => {
+    this.setState({
+      data: [
+        ...this.state.data,
+        {
+          id: this.state.data.length + 1,
+          name: lastName + "," + firstName,
+          firstName,
+          lastName,
+          score
+        }
+      ]
+    });
+  };
+  render() {
+    return (
+      <div className="App">
+        <Leaderboard
+          leaderboardData={this.state.data}
+          add={this.handleAdd}
+          delete={this.handleDelete}
+          update={this.handleUpdate}
+        />
+      </div>
+    );
+  }
 }
 
 export default App;
